@@ -1,0 +1,177 @@
+
+body {
+  background-color: #ECEEF1;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #505050;
+}
+a {
+  color: #0077C5;
+  text-decoration: none;
+}
+
+/* Header portion w sign in button */
+#main-header {
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  margin: 0 10px;
+}
+
+div#signin-text {
+  text-align: center;
+  margin: auto 0;
+}
+div#signin-text p {
+  margin: 0;
+  font-size: 12px;
+  color: #505050;
+}
+div#signin-text p:first-child {
+  margin-top: 3px;
+}
+div#signin-text p a {
+  text-decoration: none;
+}
+
+#signin-button {
+  margin: 3px 10px auto 10px;
+  padding: 7px 12px;
+  border-radius: 4px;
+  width: 100px;
+  font-size: 0.9em;
+  background-color:#0077C5;
+  color: white;
+  border: 1px solid #4c4c4c;
+}
+
+/* Headers for signup form */
+#intuit-title {
+  margin-top: 35px;
+  margin-bottom: 8px;
+}
+#intuit-title a {
+  width: 118px;
+
+  height: 35px;
+  
+  background-image: url(intuit-header.png);
+  
+  display: inherit;
+  
+  margin: auto;
+}
+#intuit-logos a {
+  width: 317px;
+
+  height: 35px;
+  
+  background-image: url(intuit-header.png);
+  
+  display: inherit;
+  
+  margin: auto;
+  
+  background-position-y: 38px;
+}
+
+/* Main portion w signup form */
+
+div#signup-wrapper {
+  width: 380px;
+  /* height: 673px; */
+  background-color: white;
+  margin: 20px auto;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+}
+div#form-intro {
+  text-align: center;
+  padding-bottom: 0;
+}
+#form-intro h2 {
+  padding-top: 30px;
+  margin-top: 0;
+  font-weight: normal;
+}
+#form-intro p {
+  font-size: 14px;
+  margin-bottom: -5px;
+}
+#form-intro a {
+  font-size: 12px;
+  text-decoration: none;
+}
+form {
+  margin: 0 26.4px;
+}
+form label {
+  margin-top: 30px;
+  display: flex;
+  font-size: 14px;
+  padding-bottom: 6px;
+}
+input {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 34px;
+  box-sizing: border-box;
+  padding: 0 5px;
+  font-size: 1.2em;
+  border-radius: 2px;
+  border: 1px solid #C1C5C8;
+}
+form span {
+  display: block;
+  font-size: 10px;
+}
+form button {
+  width: 100%;
+  height: 44px;
+  margin-top: 30px;
+  font-size: 16px;
+  color: white;
+  background-color: #0077C5;
+  border: 1px solid #4c4c4c;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  margin-bottom: 30px;
+}
+#terms-text {
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+  color: #757575;
+  width: 84%;
+  margin: auto;
+  line-height: 1.7;
+}
+#form-footer {
+  background-color: #ECEEF1;
+  margin-top: 30px;
+  padding: 16px;
+  text-align: center;
+}
+#form-footer p {
+  margin: 0;
+  font-size: 10px;
+  color: #8d9096;
+}
+
+
+/* Footer portion w copyright info */
+
+footer#main-footer {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+} 
+footer#main-footer p {
+  margin: 0;
+}
+footer#main-footer p a {
+  margin: 0 10px;
+  color: inherit;
+  text-decoration: none;
+}
